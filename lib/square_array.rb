@@ -5,5 +5,5 @@ def square_array(array)
     new_num[count] =  Math.sqrt(array[count]).to_i
     count += 1
   end
-  array
+  new_num
 end
