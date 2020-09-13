@@ -1,6 +1,7 @@
 def square_array(array)
   new_num = []
-  while array.length do |i|
+  count = 0
+  while count < array.length 
     new_num[i] = Math.sqrt(array[i])
   end
   new_num
